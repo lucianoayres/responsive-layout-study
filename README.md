@@ -6,6 +6,8 @@ Responsive layout study created through Rocketseat's 'Responsividade na Prática
 
 ### Link
 
+[https://lucianoayres.github.io/responsive-layout-study/](https://lucianoayres.github.io/responsive-layout-study/)
+
 ## Features
 
 - Responsive layout (desktop & mobile)
