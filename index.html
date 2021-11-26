@@ -3,14 +3,20 @@
   <head>
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="responsive.css"
+      media="screen and (max-width: 768px)"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="print.css" media="print" />
   </head>
   <body>
     <header>
       <div class="container">
-        <img
-          src="./images/logo-rocketseat.svg"
-          alt="Rocketseat"
-        />
+        <img src="./images/logo-rocketseat.svg" alt="Rocketseat" />
         <div class="menu-section">
           <div class="menu-toggle">
             <div class="one"></div>
@@ -51,18 +57,45 @@
           </p>
           <a href="#" class="button">Quero embarcar neste foguete!</a>
         </div>
-        <img
-          src="./images/melhores-tecnologias.svg"
-          alt=""
-        />
+        <img src="./images/melhores-tecnologias.svg" alt="" />
       </div>
     </section>
 
     <main>
       <section class="cards">
         <div class="card">
+          <!-- Image optimization alternative with 'picture' tag
+        <picture class="image" alt="Image">
+            <source
+              media="(min-width: 768px)"
+              srcset="https://i.ytimg.com/vi/GykTLqODQuU/maxresdefault.jpg"
+            />
+            <source
+              media="(min-width: 320x)"
+              srcset="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg"
+            />
+            <source
+              media="(min-width: 320x)"
+              srcset="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg"
+            />
+
+            <source
+              media="(min-width: 10x)"
+              srcset="https://i.ytimg.com/vi/GykTLqODQuU/mqdefault.jpg"
+            />
+
+            <img
+              src="https://i.ytimg.com/vi/GykTLqODQuU/qdefault.jpg"
+              alt="Image"
+            />
+          </picture>
+          -->
+
           <div class="image">
-            <img src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg" />
+            <img
+              src="https://i.ytimg.com/vi/GykTLqODQuU/hqdefault.jpg"
+              alt="Image"
+            />
           </div>
           <div class="content">
             <p class="title text--medium">
@@ -76,8 +109,6 @@
         </div>
       </section>
     </main>
-
-
 
     <section id="form">
       <form action="">
@@ -104,9 +135,7 @@
 
         <div class="form-group">
           <button type="submit" class="button">Save</button>
-
         </div>
-
       </form>
     </section>
 
@@ -135,5 +164,6 @@
     </div>
 
     <script src="scripts.js"></script>
+    <script src="menu.js"></script>
   </body>
 </html>
