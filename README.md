@@ -1,4 +1,6 @@
-# About
+# Responsive Layout Study
+
+## About
 
 Responsive layout study created through Rocketseat's 'Responsividade na Prática' Masterclass.
 
